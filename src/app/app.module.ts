@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CandidacyCreateComponent } from './candidacy-create/candidacy-create.component';
+import { CandidacyDashboardComponent } from './candidacy-dashboard/candidacy-dashboard.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CandidacyCreateComponent,
+    CandidacyDashboardComponent
   ],
   imports: [
     BrowserModule
